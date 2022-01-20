@@ -1,0 +1,48 @@
+#chatbot-root .collection{
+    height: 100%;
+    background: white;
+    margin: 0 !important;
+}
+
+#chatbot-root .collection .collection-item.avatar { 
+    border-bottom: 0px solid white !important;
+    border-radius: 0;
+    margin-bottom: 2px;
+    transition: all 500ms ease-in-out;
+}
+
+#chatbot-root .collection .collection-item.avatar:hover { 
+    margin-bottom: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#chatbot-root .collection .collection-item { 
+    border-bottom: 1px solid #e0e0e08c !important;
+}
+
+#chatbot-root .verticle-center {
+    height: 100%;
+    background: white;
+    /* margin-top: auto; */
+    padding-top: calc(50% + 50px);
+    padding-left: calc(50% - 32px);
+}
+
+ 
+#chatbot-root .collection .collection-item.avatar.bot-chat-list{  
+    border-radius: 0;
+}
+ 
+
+#chatbot-root .new-message-indicator{
+    position: absolute;
+      right: 15px;
+      top: 28px;
+      color:red;
+  }
+
+  .disabled{
+
+    pointer-events: none;
+  }

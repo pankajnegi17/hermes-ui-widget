@@ -1,0 +1,51 @@
+
+#chatbot-root .minimizedChatWrapper{
+    pointer-events: all !important;
+    visibility: hidden;  
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    cursor: pointer;
+    transition: visibility 600ms ease-in;
+}
+
+#chatbot-root .minimizedChatWrapper.active{
+    visibility: visible;  
+    width:100px;
+    height:100px;
+}
+
+#chatbot-root .minimizeChat{
+    display:none;
+}
+
+ 
+#chatbot-root .minimizedChatWrapper .chatIcon{
+    width:100px !important;
+    height:100px !important; 
+    border-radius: 50%;
+    padding: 3%;    
+    /* box-shadow: 2px 2px 9px 1px #889999;
+    background: #dfb482; */
+    box-shadow: 2px 2px 9px 1px #889999;
+    background: black;
+
+}
+
+#chatbot-root .minimizedChatWrapper:hover{
+     transition: animation 200ms ease-in-out  ;
+  animation:JumpUpDown 1s infinite;
+}
+
+@keyframes JumpUpDown{
+    0%{     bottom:  15px; }
+    33%{    bottom:  20px ; }
+    66%{    bottom:  15px; }
+    100%{    bottom: 10px ; } 
+}
+
+.mini-notification{
+    position: absolute;
+    top: -35px;
+    right: 10px;
+}

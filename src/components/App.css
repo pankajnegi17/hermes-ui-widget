@@ -1,0 +1,48 @@
+#chatbot-root html {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+#chatbot-root .chatbot {
+  /* display: none; */
+  /* visibility: hidden;  */
+  /* opacity: 0 !important; */
+
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 0;
+  height: 700px;
+  transition-property: all !important;
+  transition-delay: 0s !important;
+  transition-timing-function: ease-in !important;
+  transition-duration: 500ms !important;
+}
+
+#chatbot-root .chatbot.active {
+  width: 390px;
+
+  /* display: block; */
+  /* visibility: visible;   */
+  /* opacity: 1 !important; */
+}
+
+
+/* .reset_bot_position{
+    transform:translate(0px, 0px) !important;
+} */
+
+#chatbot-root .notification-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 300px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+#chatbot-root .react-notification-root {
+  position: absolute !important;
+}

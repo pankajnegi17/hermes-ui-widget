@@ -1,0 +1,14 @@
+.indicator{
+    position: absolute;
+    top: -10;
+    left: 0;
+    color:red;
+    font-weight: bold;
+}
+
+
+.mini-notification{
+    position: absolute;
+    top: -35px;
+    right: 10px;
+}

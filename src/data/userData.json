@@ -1,0 +1,11 @@
+{
+    "users":[
+        {"firstName": "Ade","lastName": "Komariah","userType": "client","username": "adekomariah@hermes.com"},
+        {"firstName": "Alvian","lastName": " ","userType": "client","username": "alvian@hermes.com"},
+        {"firstName": "Rony","lastName": "Tan","userType": "client","username": "ronytan@hermes.com"},
+        {"firstName": "Sopar","lastName": "Marpaung","userType": "client","username": "soparmarpaung@hermes.com"},
+        {"firstName":"Hidrian", "lastName":" ", "userType":"client", "username":"hidrian@hermes.com"}
+    ]
+}
+
+

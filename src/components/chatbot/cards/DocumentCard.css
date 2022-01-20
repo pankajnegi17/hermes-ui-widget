@@ -1,0 +1,9 @@
+.dc_wrapper{
+   box-shadow: none !important;
+   background-color: transparent !important;
+}
+
+.dc_wrapper span.MuiTypography-root{
+    text-decoration: underline !important;
+    color: blue;
+}

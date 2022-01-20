@@ -1,0 +1,21 @@
+.card_header{
+    text-align: center !important;
+    background: black;
+    color:white
+}
+
+.center{
+    text-align: center !important;
+}
+
+.full_width{
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.menu_wrapper{
+     
+        color: black; 
+        background-color: #efefef !important;
+  
+}

@@ -1,0 +1,11 @@
+#chatbot-root .MuiFormControl-root { 
+    width: 100%!important; 
+}
+
+#chatbot-root textarea.materialize-textarea { 
+    margin: 0 !important; 
+}
+
+#chatbot-root .MuiContainer-root{
+    padding-top:25px !important;
+}

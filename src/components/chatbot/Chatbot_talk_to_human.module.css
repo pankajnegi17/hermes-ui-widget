@@ -1,0 +1,26 @@
+ 
+.notifibox { 
+	align-items: center !important;
+	background: white !important;
+ 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.notifibox_h2 {
+	font-size: 14px !important;
+	padding: 10px !important;
+	border-bottom: 1px solid #eee !important;
+	color: #999 !important;
+}
+.notifibox_h2_span {
+	color: #f00 !important;
+}
+ 
+.Notification_container{
+	z-index: 999999 !important;
+	position: fixed;
+    top: 8%;
+    background: white;
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+}

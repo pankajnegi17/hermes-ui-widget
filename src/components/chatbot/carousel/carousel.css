@@ -1,0 +1,24 @@
+#chatbot-root .sc-height{
+    height: 40px;
+}
+
+#chatbot-root .carousel.carousel-slider{
+ 
+}
+
+#chatbot-root .modal-image-wrapper{
+
+}
+
+#chatbot-root .modal-image{
+    min-width: 400px;
+    width: 100%; 
+    max-height: 80vh !important;
+}
+
+.modal-image{
+    min-width: 400px;
+    width: 100%; 
+    max-height: 80vh !important;
+}
+
