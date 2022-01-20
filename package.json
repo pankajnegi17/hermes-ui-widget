@@ -1,108 +1,49 @@
 {
-  "name": "@pankajnegi17/hermes-ui-widget",
-  "description": "hermes chatbot for web",
-  "author": "pankajnegi17",
-  "license": "MIT",
-  "engines": {
-    "node": ">=10"
-  },
-  "files": [
-    "dist"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "repository": "git://github.com/pankajnegi17/hermes-ui-widget",
-  "version": "1.0.0",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "source": "src/index.js",
-  "dir": "dist",
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "@pankajnegi17/hermes-ui-widget",
+    "description": "hermes chatbot for web",
+    "author": "pankajnegi17",
+    "license": "MIT",
+    "engines": {
+      "node": ">=10"
+    },
+    "files": [
+      "dist"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "scripts": {
-    "build": "rollup -c",
-    "build-watch": "rollup -c -w",
-    "start-chatbot-react-wrapper": "cd chatbot-react-wrapper && npm run start",
-    "i-all": "npm i && cd chatbot-react-wrapper && npm i",
-    "dev": "npm-run-all --parallel build-watch start-chatbot-react-wrapper"
-  },
-  "dependencies": {
-    "@google-cloud/translate": "^6.3.0",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.48",
-    "axios": "^0.19.0",
-    "dotenv": "^8.2.0",
-    "html-react-parser": "^1.2.4",
-    "http-proxy-middleware": "^0.20.0",
-    "material-table": "^1.57.2",
-    "material-ui-dropzone": "^2.5.0",
-    "materialize-css": "^1.0.0",
-    "node-sass": "^4.14.1",
-    "pdf-viewer-reactjs": "^2.0.6",
-    "react-addons-css-transition-group": "^15.6.2",
-    "react-autosuggest": "^10.0.2",
-    "react-base64-downloader": "^2.1.6",
-    "react-browser-notifications": "^1.0.14",
-    "react-cookie": "^4.0.3",
-    "react-draggable": "^4.2.0",
-    "react-google-translate": "^1.0.11",
-    "react-hyper-modal": "^1.1.1",
-    "react-images": "^1.1.3",
-    "react-notifications-component": "^2.4.0",
-    "react-photo-gallery": "^8.0.0",
-    "react-redux": "^7.1.3",
-    "react-resizable": "^1.10.1",
-    "react-responsive-carousel": "^3.1.51",
-    "react-router-dom": "^5.1.2",
-    "react-select-search": "^1.1.2",
-    "react-toastify": "^5.5.0",
-    "react-uuid": "^1.0.2",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0",
-    "socket.io-client": "^3.1.2",
-    "universal-cookie": "^4.0.3",
-    "use-sound": "^4.0.1",
-    "uuid": "^8.1.0"
-  },
-  "peerDependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-scripts": "^3.4.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/preset-env": "^7.14.4",
-    "@babel/preset-react": "^7.13.13",
-    "@rollup/plugin-babel": "^5.3.0",
-    "@rollup/plugin-commonjs": "^19.0.0",
-    "@rollup/plugin-image": "^2.1.1",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "autoprefixer": "^9.8.8",
-    "node-sass": "*",
-    "npm-run-all": "^4.1.5",
-    "rollup": "^2.51.1",
-    "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-import-css": "^2.0.1",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-scss": "^2.6.1",
-    "rollup-plugin-terser": "^7.0.2"
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    },
+    "repository": "git://github.com/pankajnegi17/hermes-ui-widget",
+    "version": "1.0.3",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "source": "src/index.js",
+    "dir": "dist",
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "scripts": {
+      "build": "rollup -c",
+      "build-watch": "rollup -c -w",
+      "start-chatbot-react-wrapper": "cd chatbot-react-wrapper && npm run start",
+      "i-all": "npm i && cd chatbot-react-wrapper && npm i",
+      "dev": "npm-run-all --parallel build-watch start-chatbot-react-wrapper"
+    }, 
+    "peerDependencies": {
+      "react": "^16.14.0",
+      "react-dom": "^16.14.0",
+      "react-scripts": "^3.4.2"
+    } 
   }
-}
+  
