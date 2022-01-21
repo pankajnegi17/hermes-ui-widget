@@ -1,0 +1,2 @@
+export const LOAD_LIVE_CHAT = "LOAD_LIVE_CHAT";
+export const DELETE_LIVE_CHAT = "DELETE_LIVE_CHAT"

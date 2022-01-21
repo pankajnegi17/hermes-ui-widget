@@ -1,0 +1,49 @@
+{
+    "name": "@pankajnegi17/hermes-ui-widget",
+    "description": "hermes chatbot for web",
+    "author": "pankajnegi17",
+    "license": "MIT",
+    "engines": {
+      "node": ">=10"
+    },
+    "files": [
+      "dist"
+    ],
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    },
+    "repository": "git://github.com/pankajnegi17/hermes-ui-widget",
+    "version": "1.0.3",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "source": "src/index.js",
+    "dir": "dist",
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "scripts": {
+      "build": "rollup -c",
+      "build-watch": "rollup -c -w",
+      "start-chatbot-react-wrapper": "cd chatbot-react-wrapper && npm run start",
+      "i-all": "npm i && cd chatbot-react-wrapper && npm i",
+      "dev": "npm-run-all --parallel build-watch start-chatbot-react-wrapper"
+    }, 
+    "peerDependencies": {
+      "react": "^16.14.0",
+      "react-dom": "^16.14.0",
+      "react-scripts": "^3.4.2"
+    } 
+  }
+  

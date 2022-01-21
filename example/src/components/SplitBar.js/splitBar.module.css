@@ -1,0 +1,36 @@
+.splitBarIncoming {
+    width: 100%;
+    height: 45%;
+    min-Height: 15%;
+    max-Height: 85%;
+    overflow-Y: scroll;
+    overflow-X: scroll;
+    resize: vertical;
+    scroll-Behavior: smooth;
+    border-Bottom: 0.5px;
+    border-Color: #F1F1F1;
+}
+
+.splitBarIncoming::-webkit-scrollbar {
+    width: 5px;
+    background: #F1F1F1;
+    height: 5px;
+    border-radius: 2px;
+}
+
+.splitBarKS {
+    width: 100%;
+    overflow-Y: scroll;
+    overflow-X: scroll; 
+    flex: 1 1 40px;
+    scroll-Behavior: smooth;
+    border-Bottom: 0.5;
+    border-Color: #F1F1F1;
+}
+
+.splitBarKS::-webkit-scrollbar {
+    width: 5px;
+    background: #F1F1F1;
+    height: 5px;
+    border-radius: 2px;
+}

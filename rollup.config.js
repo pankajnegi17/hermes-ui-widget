@@ -7,8 +7,9 @@ import image from '@rollup/plugin-image';
 import scss from 'rollup-plugin-scss'  
 import autoprefixer from 'autoprefixer';
 import postcss from 'rollup-plugin-postcss';
-
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { terser } from "rollup-plugin-terser";
+import commonjs from '@rollup/plugin-commonjs';
 export default {
     
     // preserveModules: true,
@@ -18,6 +19,7 @@ export default {
         { file: pkg.module, format: 'esm' }
     ],
     plugins: [
+        del({ targets: ['dist/*'] }),
         json(), 
         scss(),
         image(),
@@ -31,8 +33,10 @@ export default {
             extract: true,
             minimize: true
         }),
-        terser(),
-        del({ targets: ['dist/*'] }),
+       
+        commonjs( ),
+        nodeResolve( ),
+        terser()
     ],
     external: Object.keys(pkg.peerDependencies || {}),
 }; 

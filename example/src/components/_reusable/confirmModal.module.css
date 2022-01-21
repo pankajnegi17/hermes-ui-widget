@@ -1,0 +1,53 @@
+.confirmModalWrapper{
+    z-index: 999999999999;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    padding-top: 70%;
+    width: 100%;
+    background: #00000082;
+}
+
+.confirmModalContent{
+    background-color: #f2ddbf;
+    padding: 10px;
+    margin: 0 35px;
+    border-radius: 25px;
+}
+
+.confirmLazyWrapper{
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+  
+  .ConfirmModalLoads {
+    margin-left: calc(50% - 50px);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 4px solid white;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid rgba(255,255,255,0.03);
+    animation: spin 1s ease infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      filter: blur(0px);
+    }
+  
+    50% {
+      filter: blur(2px);
+    }
+  
+    100% {
+      transform: rotate(359deg);
+      filter: blur(0px);
+    }
+  }
+  

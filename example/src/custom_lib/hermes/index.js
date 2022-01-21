@@ -1,0 +1,2 @@
+import"react";import"react-dom";export{H as default}from"./index-af864662.js";import"http";import"https";import"url";import"assert";import"stream";import"tty";import"util";import"os";import"zlib";import"fs";import"canvas";import"events";import"child_process";import"net";import"tls";import"crypto";import"bufferutil";import"utf-8-validate";
+uire("crypto"),require("bufferutil"),require("utf-8-validate"),module.exports=e.HermesBot;

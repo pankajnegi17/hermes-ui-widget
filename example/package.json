@@ -19,7 +19,8 @@
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
     "socket.io-client": "^4.4.0",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "@pankajnegi17/hermes-ui-widget": "file:/node_modules/hermes/dist/index.js"
   },
   "scripts": {
     "start": "set HTTPS=true&&react-scripts start",

@@ -1,0 +1,23 @@
+/*==================================================
+ * Effect 3
+ * ===============================================*/
+
+.effect3 {
+    /* -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;  */
+}
+
+.noRequestInfo {
+    margin-top: 10px;
+}
+
+.gridBorder {
+    height: 100%;
+    border-Bottom: 1px solid;
+    border-Right: 1px solid;
+    border-Left: 1px solid;
+    border-Color: rgba(93, 19, 19, 0.12)
+}
+
+ 
